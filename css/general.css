@@ -220,6 +220,11 @@ footer {
 @media (max-width: 768px) {
     .nav-links {
         gap: 0.5vw;
+        max-width: 60%;
+    }
+
+    .nav-links a {
+        font-size: 1rem;
     }
 
     .hero h1 {
@@ -282,4 +287,5 @@ strong {
     transform: translateY(-10vh);
 
 }
+
 
