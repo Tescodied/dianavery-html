@@ -234,6 +234,10 @@ footer {
     .cats-grid {
         grid-template-columns: 1fr;
     }
+
+    .nav-links {
+        gap: 0.5vw;
+    }
 }
 
 /* Zooming Feature */
@@ -281,4 +285,5 @@ strong {
 
 #about-out-kittens-text {
     transform: translateY(-10vh);
+
 }
