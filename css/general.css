@@ -26,7 +26,7 @@ header {
     justify-content: space-between;
     top: 0;
     padding: 0 2.5vw;
-    height: 5vh;
+    height: 5rem;
 
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -364,3 +364,4 @@ strong {
 #about-out-kittens-text {
     transform: translateY(-10vh);
 }
+
