@@ -113,7 +113,7 @@ nav {
 
 .hero p {
     margin-top: 2vh;
-    line-height: 5vh;
+    line-height: 3rem;
     font-weight: 550;
     font-size: 1.6rem;
     margin-bottom: 2rem;
@@ -296,6 +296,24 @@ footer {
 
     .footer-text p {
         font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 419px) {
+    .nav-links a {
+        font-size: 0.8rem;
+    }
+
+    .nav-links {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        justify-content: center;
+    }
+}
+
+@media (max-width: 342px) {
+    .nav-links a {
+        font-size: 0.7rem;
     }
 }
 
