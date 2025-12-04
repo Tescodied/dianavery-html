@@ -147,8 +147,8 @@
 }
 
 .hero {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .hero p {
@@ -160,6 +160,7 @@
 }
 
 .section {
-    padding: 1rem 0:
+    padding: 1rem 0 !important:
 }
+
 
